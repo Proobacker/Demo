@@ -1,0 +1,113 @@
+
+  <!DOCTYPE html>
+  <html lang="vi">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Blog Cá Nhân - Có Hình Ảnh</title>
+      <style>
+          body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+              background-color: #f4f4f4;
+          }
+          header {
+              background: #35424a;
+              color: white;
+              padding: 10px 0;
+              text-align: center;
+          }
+          h1 {
+              margin: 0;
+          }
+          .container {
+              width: 80%;
+              margin: auto;
+              overflow: hidden;
+          }
+          .post {
+              background: white;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              padding: 15px;
+              margin-bottom: 20px;
+              box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          }
+          .post h2 {
+              color: #35424a;
+          }
+          small {
+              color: #777;
+          }
+          .post img {
+              max-width: 100%;
+              border-radius: 5px;
+          }
+          .comments {
+              margin-top: 10px;
+              padding-left: 20px;
+              border-left: 2px solid #35424a;
+              padding-left: 15px;
+          }
+          blockquote {
+              background: #f9f9f9;
+              border-left: 5px solid #35424a;
+              margin: 10px 0;
+              padding: 10px;
+          }
+          form {
+              margin-top: 15px;
+          }
+          input[type="text"], textarea {
+              width: 100%;
+              padding: 10px;
+              margin: 5px 0;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+          }
+          button {
+              background: #35424a;
+              color: white;
+              border: none;
+              padding: 10px 15px;
+              border-radius: 5px;
+              cursor: pointer;
+          }
+          button:hover {
+              background: #45a049;
+          }
+      </style>
+  </head>
+  <body>
+      <header>
+          <h1>Blog Cá Nhân</h1>
+      </header>
+      <div class="container">
+          <div class="post">
+              <h2>Cuộc Sống Mới Bắt Đầu</h2>
+              <small>Ngày: 24/09/2024 | Tác giả: Nguyễn Văn A</small>
+              <img src="https://media.istockphoto.com/id/517188688/vi/anh/phong-c%E1%BA%A3nh-n%C3%BAi-non.jpg?s=612x612&w=0&k=20&c=WWWaejSo6EWGZMZSK7QK6LCfwd0rL2KB3ImCX2VkW4A=" alt="Hình ảnh minh họa">
+              <p>Hôm nay là ngày đầu tiên tôi bắt đầu viết blog. Tôi cảm thấy rất hào hứng khi chia sẻ những suy nghĩ và trải nghiệm của mình với mọi người.</p>
+              <p>Tôi tin rằng việc viết lách sẽ giúp tôi tổ chức lại những ý tưởng và cảm xúc của mình. Hy vọng rằng bạn đọc sẽ tìm thấy điều gì đó thú vị trong những bài viết của tôi.</p>
+              
+              <div class="comments">
+                  <h3>Bình luận:</h3>
+                  <blockquote>
+                      <strong>Nguyễn Thị B</strong>: Chúc mừng bạn đã bắt đầu hành trình mới này!
+                  </blockquote>
+                  <blockquote>
+                      <strong>Trần Văn C</strong>: Tôi rất mong chờ những bài viết tiếp theo của bạn!
+                  </blockquote>
+              </div>
+              
+              <form>
+                  <h4>Thêm bình luận:</h4>
+                  <input type="text" placeholder="Tên của bạn" required>
+                  <textarea placeholder="Nội dung bình luận" required></textarea>
+                  <button type="submit">Gửi bình luận</button>
+              </form>
+          </div>
+      </div>
+  </body>
+  </html>

@@ -1,0 +1,101 @@
+
+  <!DOCTYPE html>
+  <html lang="vi">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Trang Tin Tức</title>
+      <style>
+          body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+              background-color: #f4f4f4;
+          }
+          header {
+              background: #35424a;
+              color: white;
+              padding: 10px 0;
+              text-align: center;
+          }
+          .container {
+              display: flex;
+              width: 80%;
+              margin: auto;
+              overflow: hidden;
+          }
+          .main {
+              flex: 3;
+              padding: 20px;
+              background: white;
+              margin-right: 20px;
+              border-radius: 5px;
+              box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          }
+          .sidebar {
+              flex: 1;
+              padding: 20px;
+              background: #eaeaea;
+              border-radius: 5px;
+              box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          }
+          h1, h2, h3 {
+              color: #35424a;
+          }
+          ul {
+              list-style-type: none;
+              padding: 0;
+          }
+          li {
+              margin: 10px 0;
+          }
+          a {
+              text-decoration: none;
+              color: #35424a;
+          }
+          a:hover {
+              text-decoration: underline;
+          }
+          img {
+              max-width: 100%;
+              border-radius: 5px;
+          }
+      </style>
+  </head>
+  <body>
+      <header>
+          <h1>Trang Tin Tức</h1>
+      </header>
+      <div class="container">
+          <div class="main">
+              <article>
+                  <h2>Bài Báo 1: Tình Hình Thời Tiết</h2>
+                  <small>Ngày xuất bản: 24/09/2024</small>
+                  <img src="https://cdn.baoquocte.vn/stores/news_dataimages/2023/072023/23/22/lich-thi-dau-bong-da-hom-nay-277-va-sang-287-20230723223839.jpg?rt=20240828180351" alt="Thời Tiết">
+                  <p>Hôm nay, thời tiết tại Hà Nội sẽ có mưa rào vào buổi chiều. Nhiệt độ dao động từ 25 đến 30 độ C. Người dân được khuyến cáo nên mang theo ô khi ra ngoài.</p>
+              </article>
+              <article>
+                  <h2>Bài Báo 2: Tin Tức Kinh Tế</h2>
+                  <small>Ngày xuất bản: 23/09/2024</small>
+                  <img src="https://thesaigontimes.vn/wp-content/uploads/2022/10/kinhte.jpg" alt="Tin Tức Kinh Tế">
+                  <p>Chỉ số VN-Index đã tăng 15 điểm trong phiên giao dịch hôm qua, đạt mức 1,200 điểm. Các nhà đầu tư đang lạc quan về triển vọng kinh tế trong quý 4 năm nay.</p>
+              </article>
+              <article>
+                  <h2>Bài Báo 3: Sự Kiện Văn Hóa</h2>
+                  <small>Ngày xuất bản: 22/09/2024</small>
+                  <img src="https://static.baovanhoa.vn/zoom/600_400/Portals/0/EasyGalleryImages/1/72179/M%E1%BB%99t-trong-c%C3%A1c-%C4%91%C3%AAm-%C4%91a%CC%A3i-ti%C3%AA%CC%A3c-%C3%A2m-nha%CC%A3c-HOZO-Super-Fest-2023.jpg" alt="Sự Kiện Văn Hóa">
+                  <p>Festival Âm Nhạc Quốc Tế sẽ diễn ra tại TP. Hồ Chí Minh từ ngày 1 đến 3 tháng 10. Nhiều nghệ sĩ nổi tiếng trong và ngoài nước sẽ tham gia biểu diễn.</p>
+              </article>
+          </div>
+          <div class="sidebar">
+              <h3>Bài Viết Nổi Bật</h3>
+              <ul>
+                  <li><a href="#">Bài Viết Nổi Bật 1: Công Nghệ Mới Nhất 2024</a></li>
+                  <li><a href="#">Bài Viết Nổi Bật 2: Xu Hướng Thời Trang Mùa Thu</a></li>
+                  <li><a href="#">Bài Viết Nổi Bật 3: Du Lịch Năm 2024</a></li>
+                  <li><a href="#">Bài Viết Nổi Bật 4: Sức Khỏe và Lối Sống</a></li>
+              </ul>
+          </div>
+      </div>
+  </body>
+  </html>
